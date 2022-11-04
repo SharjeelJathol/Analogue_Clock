@@ -22,25 +22,25 @@ body{
     justify-content: center;
 }
 
-.seconds, .minutes, .hours{
+#seconds, #minutes, #hours{
     position: absolute;
 }
 
-.seconds{
+#seconds{
     margin-top: 10vh;
     width: 4px;
     height:40vh;
     background-color: black;
 }
 
-.minutes{
+#minutes{
     margin-top: 20vh;
     width: 4px;
     height:30vh;
     background-color: black;
 }
 
-.hours{
+#hours{
     margin-top: 25vh;
     width: 5px;
     height:25vh;
