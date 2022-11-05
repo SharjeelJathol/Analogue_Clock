@@ -15,8 +15,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: aqua; */
-    height: 100vh;
-    width: 100vh;
+    height: 100vmin;
+    width: 100vmin;
     position: relative;
     display: flex;
     justify-content: center;
@@ -27,25 +27,25 @@ body{
 }
 
 #seconds{
-    margin-top: 10vh;
-    width: 4px;
-    height:40vh;
+    margin-top: 10vmin;
+    width: 0.3vmin;
+    height:40vmin;
     background-color: black;
     transform-origin: bottom;
 }
 
 #minutes{
-    margin-top: 20vh;
-    width: 4px;
-    height:30vh;
+    margin-top: 20vmin;
+    width: 0.5vmin;
+    height:30vmin;
     background-color: black;
     transform-origin: bottom;
 }
 
 #hours{
-    margin-top: 25vh;
-    width: 5px;
-    height:25vh;
+    margin-top: 25vmin;
+    width: 1vmin;
+    height:25vmin;
     background-color: black;
     transform-origin: bottom;
 }
